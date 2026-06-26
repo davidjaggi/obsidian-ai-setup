@@ -9,5 +9,7 @@ notes, not code.
 - Daily notes use `templates/daily.md`.
 - Unsorted captures live in `Inbox/` until triaged (see
   `Skills/example-skill/SKILL.md`).
+- When a topic accumulates several related notes, create or update a MOC
+  per `Skills/create-moc/SKILL.md`.
 - Do not modify `.obsidian/` config unless explicitly asked.
 - Keep notes in the user's own voice/words; don't pad with filler.

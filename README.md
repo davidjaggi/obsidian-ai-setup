@@ -19,6 +19,7 @@ instructions once and every tool benefits.
 ├── templates/           # Obsidian note templates (Templater/core Templates plugin).
 ├── Inbox/               # Unsorted capture - process into Notes/.
 ├── Notes/               # Permanent notes.
+│   └── MOCs/            # Maps of Content - hub notes linking related notes.
 ├── .obsidian/           # Obsidian app config (community plugins, hotkeys, etc).
 ├── CLAUDE.md            # Entry point for Claude Code.
 ├── AGENTS.md            # Entry point for Codex (and other agents that read AGENTS.md).
