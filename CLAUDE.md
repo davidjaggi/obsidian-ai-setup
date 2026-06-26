@@ -13,7 +13,10 @@ notes, not code.
   - `20 Projects/` - active, has a deadline/outcome. Each project is
     **self-contained**: give it its own subfolder holding all of its
     notes, drafts, and files rather than scattering them across other
-    top-level folders.
+    top-level folders. Every project folder contains `INDEX.md` (its
+    structure) and `CONTEXT.md` (running log of past interactions,
+    appended after every interaction with the project) - see
+    `90 Meta/Skills/manage-project/SKILL.md`.
   - `30 Areas/` - ongoing responsibilities, no end date.
   - `40 Resources/` - topic reference material, no immediate action.
   - `50 Literature/` - book/article/podcast notes.
@@ -25,6 +28,9 @@ notes, not code.
   folders flat.
 - MOCs are regular notes in `60 Notes/` tagged `moc` in frontmatter, not a
   separate folder. See `90 Meta/Skills/create-moc/SKILL.md`.
+- All-caps file names (e.g. `INDEX.md`, `CONTEXT.md`) mark load-bearing
+  files maintained by a skill - read the matching skill before editing
+  one, and don't rename or all-caps a file unless a skill says to.
 - New permanent notes use `90 Meta/Templates/note.md`. Daily notes use
   `90 Meta/Templates/daily.md`.
 - Do not modify `.obsidian/` config unless explicitly asked.

@@ -26,6 +26,8 @@ are plain notes tagged `moc`, not a separate folder.
 ├── 10 Journals/         # Daily/weekly logs.
 ├── 20 Projects/         # Active, has a deadline/outcome. Self-contained per project
 │   └── <project>/       # subfolder - the only folder that nests further.
+│       ├── INDEX.md     # project structure - see manage-project skill.
+│       └── CONTEXT.md   # running log, appended after each interaction.
 ├── 30 Areas/            # Ongoing responsibilities, no end date.
 ├── 40 Resources/        # Topic reference material, no immediate action.
 ├── 50 Literature/       # Book/article/podcast notes.
