@@ -29,7 +29,7 @@ are plain notes tagged `moc`, not a separate folder.
 │       ├── <project>.md # link target for the rest of the vault.
 │       ├── INDEX.md     # project structure - see manage-project skill.
 │       ├── CONTEXT.md   # short current-state snapshot, overwritten each time.
-│       └── LOG.md        # thorough append-only history.
+│       └── LOG.md       # thorough append-only history.
 ├── 30 Areas/            # Ongoing responsibilities, no end date.
 ├── 40 Resources/        # Topic reference material, no immediate action.
 ├── 50 Literature/       # Book/article/podcast notes.
@@ -38,6 +38,7 @@ are plain notes tagged `moc`, not a separate folder.
 ├── 90 Meta/
 │   ├── Skills/          # One skill per subfolder. The shared "brain" all agents read.
 │   └── Templates/       # Obsidian note templates (Templater/core Templates plugin).
+│       └── Project/     # Templates for <project>.md, INDEX.md, CONTEXT.md, LOG.md.
 ├── 99 Archive/          # Inactive items, mirrored by category.
 │   ├── Projects/
 │   ├── Areas/
