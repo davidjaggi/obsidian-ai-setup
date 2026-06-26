@@ -16,7 +16,8 @@ instructions once and every tool benefits.
 ```
 .
 ├── Skills/             # One skill per subfolder. The shared "brain" all agents read.
-├── templates/           # Obsidian note templates (Templater/core Templates plugin).
+├── Meta/
+│   └── Templates/       # Obsidian note templates (Templater/core Templates plugin).
 ├── Inbox/               # Unsorted capture - process into Notes/.
 ├── Notes/               # Permanent notes.
 │   └── MOCs/            # Maps of Content - hub notes linking related notes.
@@ -50,6 +51,7 @@ Skills/<skill-name>/SKILL.md
 ```
 
 Each `SKILL.md` should state: when to use the skill, the steps to follow,
-and any templates/files it depends on. Keep skills small and single-purpose
+and any templates/files it depends on (templates live under
+`Meta/Templates/`). Keep skills small and single-purpose
 - compose multiple skills for bigger workflows rather than writing one giant
 skill.

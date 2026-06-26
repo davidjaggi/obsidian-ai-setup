@@ -5,8 +5,8 @@ notes, not code.
 
 - Before doing any task, check `Skills/` for a matching `SKILL.md` and
   follow it.
-- New permanent notes go in `Notes/`, using `templates/note.md`.
-- Daily notes use `templates/daily.md`.
+- New permanent notes go in `Notes/`, using `Meta/Templates/note.md`.
+- Daily notes use `Meta/Templates/daily.md`.
 - Unsorted captures live in `Inbox/` until triaged (see
   `Skills/example-skill/SKILL.md`).
 - When a topic accumulates several related notes, create or update a MOC
