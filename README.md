@@ -75,3 +75,15 @@ Each `SKILL.md` should state: when to use the skill, the steps to follow,
 and any templates/files it depends on (templates live under
 `90 Meta/Templates/`). Keep skills small and single-purpose - compose
 multiple skills for bigger workflows rather than writing one giant skill.
+
+## Bundled skills
+
+- `example-skill/` - inbox triage.
+- `create-moc/` - creating/updating Maps of Content.
+- `manage-project/` - the `INDEX.md`/`CONTEXT.md` project convention.
+- `obsidian-markdown/`, `obsidian-bases/`, `obsidian-cli/`, `json-canvas/`,
+  `defuddle/` - vendored from
+  [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) (MIT,
+  see `90 Meta/Skills/THIRD_PARTY_NOTICES.md`) for Obsidian-flavored
+  Markdown, Bases, the Obsidian CLI, JSON Canvas, and web content
+  extraction.
