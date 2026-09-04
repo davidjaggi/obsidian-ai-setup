@@ -36,8 +36,9 @@ are plain notes tagged `moc`, not a separate folder.
 ├── 60 Bases/            # Obsidian Bases / databases.
 ├── 90 Meta/
 │   ├── Skills/          # One skill per subfolder. The shared "brain" all agents read.
-│   └── Templates/       # Obsidian note templates (Templater/core Templates plugin).
-│       └── Project/     # Templates for <project>.md, INDEX.md, CONTEXT.md, LOG.md.
+│   ├── Templates/       # Obsidian note templates (Templater/core Templates plugin).
+│   │   └── Project/     # Templates for <project>.md, INDEX.md, CONTEXT.md, LOG.md.
+│   └── TaskNotes/       # Task notes managed by the TaskNotes plugin (tag: task).
 ├── 99 Archive/          # Inactive items, mirrored by category.
 │   ├── Projects/
 │   ├── Areas/
@@ -53,8 +54,10 @@ are plain notes tagged `moc`, not a separate folder.
 
 Bundled under `.obsidian/plugins/` (enabled via `community-plugins.json`):
 
-- **[Tasks](https://publish.obsidian.md/tasks/Introduction)**
-  (`obsidian-tasks-plugin`) - task management via `#task` in note bodies.
+- **[TaskNotes](https://tasknotes.dev/)** (`tasknotes`) - note-based task
+  management with calendar, kanban, and pomodoro/time-tracking views. Task
+  notes live under `90 Meta/TaskNotes/`, tagged `#task`; its auto-generated
+  Bases views are written to `60 Bases/`.
 - **[ZotFlow](https://zotflow.peterduan.dev/)** (`zotflow`) - Zotero
   integration for literature notes.
 - **[Hidden Folders Access](https://github.com/dsebastien/obsidian-hidden-folders-access)**

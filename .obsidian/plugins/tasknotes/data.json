@@ -1,0 +1,13 @@
+{
+  "tasksFolder": "90 Meta/TaskNotes",
+  "archiveFolder": "90 Meta/TaskNotes/Archive",
+  "commandFileMapping": {
+    "open-calendar-view": "60 Bases/mini-calendar-default.base",
+    "open-kanban-view": "60 Bases/kanban-default.base",
+    "open-tasks-view": "60 Bases/tasks-default.base",
+    "open-advanced-calendar-view": "60 Bases/calendar-default.base",
+    "open-agenda-view": "60 Bases/agenda-default.base",
+    "pomodoro-stats-base": "60 Bases/pomodoro-stats.base",
+    "relationships": "60 Bases/relationships.base"
+  }
+}

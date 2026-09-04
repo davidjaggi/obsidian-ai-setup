@@ -97,6 +97,22 @@ Dataview queries stay reliable across the vault.
 | `created` | date | |
 | `tags` | list | |
 
-Do not add a `status` field outside of Project `INDEX.md` - actionability
-in this vault is expressed by which numbered folder a note lives in, not
-by a status property.
+**Task note** (`90 Meta/TaskNotes/`, created/edited by the TaskNotes
+plugin)
+| Field | Type | Notes |
+|---|---|---|
+| `title` | string | |
+| `type` | string | `task` |
+| `status` | string | plugin-managed task state, e.g. `open` / `in-progress` / `done` - see the TaskNotes plugin settings for the full status list |
+| `priority` | string | `low` \| `normal` \| `high` |
+| `due` | date | optional |
+| `scheduled` | date | optional |
+| `projects` | list | optional, link(s) to the `20 Projects/<project>/<project>.md` note(s) this task belongs to |
+| `contexts` | list | optional, `@`-prefixed |
+| `tags` | list | always includes `task` - TaskNotes' identifying tag |
+
+Do not add a `status` field outside of Project `INDEX.md` or a Task note -
+actionability in this vault is otherwise expressed by which numbered
+folder a note lives in, not by a status property. Task notes are the one
+exception because `status` is how the TaskNotes plugin itself tracks
+completion.
